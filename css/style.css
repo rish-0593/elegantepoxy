@@ -1268,6 +1268,7 @@ ul {
   }
 .logo-container .header-logo {
     width: 200px;
+    /* height: 100px; */
 }
 
 .offcanvas-body {
@@ -3334,5 +3335,11 @@ ul {
     .contactForm{
         width: 100%;
         height: 100%;
+    }
+    .header-logo{
+        height: 100px;
+    }
+    .footer_main_div{
+        padding: 0px !important;
     }
   }

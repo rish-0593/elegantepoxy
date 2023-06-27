@@ -97,7 +97,7 @@
                 <div class="row">
                     <div class="col-12">
                         <nav class="nav d-flex align-items-center justify-content-between">
-                            <div class="logo-container">
+                            <div class="logo-container ">
                                 <a href="index.html">
                                     <img width="1200" class="header-logo" src="img/logo.png" alt="logo">
                                 </a>
@@ -166,7 +166,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="offcanvas-body">
                                             <ul class="accordion-menu">
                                                 <li>
@@ -272,7 +272,7 @@
                         <div class="col-12">
                             <div class="banner-onecontents">
                                 <div>
-                                    <div class="col-12 col-lg-8 col-xl-7">
+                                    <div class="col-12 col-lg-8 col-xl-7 mt-5">
                                         <div class="banner-onecontent-left">
                                             <div class="animate-heading">
                                                 <h1
@@ -439,38 +439,38 @@
 
         <!-- form start  -->
         <div class=" main_form_div">
-           <div class="container-fluid contactForm_div">
-            <div class="contactImg">
-                <img src="./img/contact.jpg" alt="">
-            </div>
-            <div class="contactForm">
-                <div class="p-5">
-                    <h4 class="contact-form-heading fw-700 line-height-3 dark-text mb-70">Drop Us a Message
-                    </h4>
-                    <form class="contact-page-form" action="mail/form.php" method="post">
-                        <div class="row mb-50">
-                            <div class="col">
-                                <input type="text" class="form-control" name="name" placeholder="Name" required>
+            <div class="container-fluid contactForm_div">
+                <div class="contactImg">
+                    <img src="./img/contact.jpg" alt="">
+                </div>
+                <div class="contactForm">
+                    <div class="p-5">
+                        <h4 class="contact-form-heading fw-700 line-height-3 dark-text mb-70">Drop Us a Message
+                        </h4>
+                        <form class="contact-page-form" action="mail/form.php" method="post" id="form-1">
+                            <div class="row mb-50">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                </div>
                             </div>
-                            <div class="col">
-                                <input type="email" class="form-control" name="email" placeholder="Email" required>
+                            <div class="row mb-50">
+                                <div class="col w-100">
+                                    <input type="tel" class="form-control" name="phone" id="phone-1" placeholder="Phone"
+                                        required minlength="10" maxlength="10">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row mb-50">
-                            <div class="col w-100">
-                                <input type="tel" class="form-control" name="phone" id="phone-2" placeholder="Phone" required
-                                    minlength="10" maxlength="10">
-                            </div>
-                        </div>
-                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1"
-                            placeholder="Your Messages" rows="3" required></textarea>
-                        <button class="btn brand-btn text-uppercase d-inline-block mt-60" type="submit">
-                            Send Message
-                        </button>
-                    </form>
+                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1"
+                                placeholder="Your Messages" rows="3" required></textarea>
+                            <button class="btn brand-btn text-uppercase d-inline-block mt-60" type="submit">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
-           </div>
         </div>
         <!-- form end -->
 
@@ -1151,7 +1151,7 @@
                 </a>
             </div>
             <div class="enquire_now">
-                <a href="mailto:deepakchopra8891@gmail.com">
+                <a href="#form2">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -1165,7 +1165,7 @@
                 </a>
             </div>
             <div class="whatsapp">
-                <a href="https://wa.me/8595407703">
+                <a href="https://wa.me/8595407703/?text=Hi, Whatsup">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -1182,43 +1182,43 @@
         <!-- contact footer end -->
 
         <!-- form start  -->
-        <div class=" main_form_div">
+        <div class=" main_form_div" id="form2">
             <div class="container-fluid contactForm_div">
-             <div class="contactImg">
-                 <img src="./img/contact.jpg" alt="">
-             </div>
-             <div class="contactForm">
-                 <div class="p-5">
-                     <h4 class="contact-form-heading fw-700 line-height-3 dark-text mb-70">Drop Us a Message
-                     </h4>
-                     <form class="contact-page-form" action="mail/form.php" method="post">
-                         <div class="row mb-50">
-                             <div class="col">
-                                 <input type="text" class="form-control" name="name" placeholder="Name" required>
-                             </div>
-                             <div class="col">
-                                 <input type="email" class="form-control" name="email" placeholder="Email" required>
-                             </div>
-                         </div>
-                         <div class="row mb-50">
-                             <div class="col w-100">
-                                 <input type="tel" class="form-control" name="phone" id="phone-2" placeholder="Phone" required
-                                     minlength="10" maxlength="10">
-                             </div>
-                         </div>
-                         <textarea class="form-control" name="message" id="exampleFormControlTextarea1"
-                             placeholder="Your Messages" rows="3" required></textarea>
-                         <button class="btn brand-btn text-uppercase d-inline-block mt-60" type="submit">
-                             Send Message
-                         </button>
-                     </form>
-                 </div>
-             </div>
+                <div class="contactImg">
+                    <img src="./img/contact.jpg" alt="">
+                </div>
+                <div class="contactForm">
+                    <div class="p-5">
+                        <h4 class="contact-form-heading fw-700 line-height-3 dark-text mb-70">Drop Us a Message
+                        </h4>
+                        <form class="contact-page-form" action="mail/form.php" method="post" id="form-2">
+                            <div class="row mb-50">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="row mb-50">
+                                <div class="col w-100">
+                                    <input type="tel" class="form-control" name="phone" id="phone-2" placeholder="Phone"
+                                        required minlength="10" maxlength="10">
+                                </div>
+                            </div>
+                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1"
+                                placeholder="Your Messages" rows="3" required></textarea>
+                            <button class="btn brand-btn text-uppercase d-inline-block mt-60" type="submit">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
-         </div>
-         <!-- form end -->
+        </div>
+        <!-- form end -->
 
-         <footer class="footer-one pb-5">
+        <footer class="footer-one pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -1312,6 +1312,16 @@
 
         setInputFilter(document.getElementById("phone-2"), function (value) {
             return /^\d*$/.test(value);
+        });
+    </script>
+
+    <script>
+        $(window).bind("pageshow", function () {
+            var form1 = $('#form-1');
+            form1[0].reset();
+
+            var form2 = $('#form-2');
+            form2[0].reset();
         });
     </script>
 </body>
