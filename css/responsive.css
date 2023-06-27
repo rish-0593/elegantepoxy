@@ -1249,4 +1249,8 @@ h1.text-white.fw-700.text-capitalize.mb-45.line-height-1.position-relative.ah-he
     .contact_footer{
         display: none;
     }
+    .menuIconHide{
+        display: none;
+    }
+    
   }
